@@ -18,5 +18,3 @@ parallelized_test: true
 build_image: shippable/minv2
 
 cache: true
-
-archive: true
