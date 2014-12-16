@@ -15,5 +15,4 @@ script:
 
 parallelized_test: true
 
-build_image:
-  name: shippable/minv2
+build_image: shippable/minv2
