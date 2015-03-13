@@ -12,13 +12,5 @@ before_script:
 
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
-
+   - return 1
 parallelized_test: true
-
-cache: true
-
-
-build_image:
-  name: shippable/minv2
-  net: host
-  privileged: true
